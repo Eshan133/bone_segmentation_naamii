@@ -1,0 +1,9 @@
+numpy
+nibabel
+matplotlib
+scipy
+scikit-image
+ipykernel
+pandas
+-e .
+# When we execute requirements.txt, it will automatically trigger setup.py file - pip install -r requirements.txt
