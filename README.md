@@ -142,3 +142,4 @@ Listed in `requirements.txt`:
 
 - Ensure the input CT scan path in `main.py` matches your file location.
 - If you have a custom folder structure, update paths in `main.py`.
+- Custom Exception and logging hasn't been completely integrated with the system.
