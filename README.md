@@ -72,8 +72,8 @@ code/
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/bone_segmentation.git
-   cd bone_segmentation
+   git clone https://github.com/Eshan133/bone_segmentation_naamii.git
+   cd bone_segmentation_naamii
    ```
 
 2. **Create a Virtual Environment** (optional, but recommended):
