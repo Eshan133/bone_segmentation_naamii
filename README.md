@@ -17,6 +17,7 @@ This project processes knee CT scans to segment the femur and tibia, generate ex
 ```
 code/
 ├── setup.py
+├── main.py
 ├── src/
 │   ├── exception.py
 │   ├── logger.py
@@ -26,9 +27,14 @@ code/
 │   │   ├── segmentation.py
 │   │   ├── analysis.py
 │   │   ├── visualization.py
-│   ├── main.py
+│   | 
 ├── data/
 │   └── 3702_left_knee.nii.gz
+|   |
+├── notebook/
+│   └── bone_segmentation.ipynb
+|   └── EDA.ipynb
+|   |
 ├── output/
 │   ├── viz_img/
 │   │   ├── tibia_lowest_points_original.png
@@ -48,8 +54,9 @@ code/
 │   ├── **tibia_points_summary.csv**
 ├── logs/
 │   └── <timestamp>.log
-├── tests/
 ├── README.md
+├── Bone Segmentation Project Report.pdf
+├── Bone_Segmentation.ipynb
 ├── requirements.txt
 ```
 
@@ -142,4 +149,5 @@ Listed in `requirements.txt`:
 
 - Ensure the input CT scan path in `main.py` matches your file location.
 - If you have a custom folder structure, update paths in `main.py`.
+- Coordinates are in a .csv file in the /output folder
 - Custom Exception and logging hasn't been completely integrated with the system.
