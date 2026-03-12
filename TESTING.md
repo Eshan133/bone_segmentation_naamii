@@ -5,13 +5,9 @@
 - Project: SamanKinMel
 - Build/Version: Workspace snapshot on March 12, 2026
 - Test Date: March 12, 2026
-- Tester: Codex
 - Environment: Local execution against static site served over HTTP
-- Browser(s): Playwright Chromium 145.0.7632.6
 - Viewport(s): 1440 x 900
-- Server Command: `python3 -m http.server 8000`
-- Full Evidence Index: [test-artifacts/full-evidence/README.md](/Users/ishanmaharjan/Downloads/samankinmel/test-artifacts/full-evidence/README.md)
-- Full Evidence JSON: [test-artifacts/full-evidence/summary.json](/Users/ishanmaharjan/Downloads/samankinmel/test-artifacts/full-evidence/summary.json)
+
 
 ## Scope Covered
 
